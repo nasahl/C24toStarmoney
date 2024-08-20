@@ -1,0 +1,9 @@
+﻿Transaktionstyp,Buchungsdatum,Betrag,Zahlungsempfänger,IBAN,BIC,Verwendungszweck,Beschreibung,Kategorie,Unterkategorie
+Kartenzahlung,15.08.2024,"-6,85","FRISCHBACKSTUBE ARSLAN - MÜNCHEN, DEU",,,,,Lebensmittel,Bäckerei
+Kartenzahlung,14.08.2024,"-22,43",Tegut,,,,"Tegut Filiale 2369 - Muenchen, DEU",Lebensmittel,Supermarkt
+Kartenzahlung,14.08.2024,"-3,99",Tegut,,,,"Tegut Filiale 2369 - Muenchen, DEU",Lebensmittel,Supermarkt
+Bargeldabhebung,12.08.2024,"-100,00","STADTSPARKASSE MUENCHE - VERDISTR., DEU",,,,,Bargeld,Bargeld
+Kartenzahlung,11.08.2024,"-86,00","Rist. Papa Franco - Muenchen, DEU",,,,,Restaurant/ Café/ Bar,Restaurant/ Café/ Bar
+Kartenzahlung,11.08.2024,"-2,14",Netto,,,,"Netto Marken-Discount - Muenchen, DEU",Lebensmittel,Supermarkt
+Kartenzahlung,10.08.2024,"-22,00","Augustiner Ewiges L - Muenchen, DEU",,,,,Restaurant/ Café/ Bar,Restaurant/ Café/ Bar
+Pocket-Umbuchung,08.08.2024,"150,00",Tagesgeld,,,,Max Meier,Umbuchung,Umbuchung

@@ -1,0 +1,7 @@
+[*.kt]
+max_line_length = 150
+
+ktlint_code_style = intellij_idea
+
+parameter-list-wrapping = false
+argument-list-wrapping = false

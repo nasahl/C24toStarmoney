@@ -1,0 +1,5 @@
+﻿Transaktionstyp,Buchungsdatum,Betrag,Zahlungsempfänger,IBAN,BIC,Verwendungszweck,Beschreibung,Kategorie,Unterkategorie
+Kartenzahlung,18.08.2024,"-15,80","SumUp *KAIMUG Rest. G - Munchen, DEU",,,,,Restaurant/ Café/ Bar,Restaurant/ Café/ Bar
+Kartenzahlung,17.08.2024,"-37,02",Lidl,,,,"Lidl sagt Danke - Muenchen, DEU",Lebensmittel,Supermarkt
+Pocket-Umbuchung,15.08.2024,"20,00",Business,,,Umbuchung,Christof Nasahl,Umbuchung,Umbuchung
+SEPA-Überweisung,08.08.2024,"480,25",SDK,DE72600600000750100000,GENODESG,VERGUETUNG,Sueddeutsche Krankenversicherung a.G.,Versicherung,
