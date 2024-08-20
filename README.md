@@ -19,3 +19,10 @@ Der Workflow ist folgendermassen:
    - Ziel: Auswählen des Kontos in das importiert wird
    - Format: Umsätze in camt-Format 053.001.08  
    - jetzt Importieren drücken und und auswählen der in 2 erzeugten CAMT Datei
+
+## Ausführbare Executable
+
+Im Verzeichnis `distribution` muss das `bin` und `lib` Verzeichnis heruntergeladen werden.  
+Im `bin` Verzeichnis stehen Dateien für die Ausführung unter Windows und Linux
+
+Voraussetzung für die Ausführung ist eine Installation von Java 17 oder höher.

@@ -14,16 +14,7 @@ repositories {
 }
 
 dependencies {
-
-//    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
-//    implementation("io.github.microutils:kotlin-logging:2.0.11")
-//    implementation("ch.qos.logback:logback-classic:1.5.6")
-//    implementation("org.apache.logging.log4j:log4j-core:2.23.1")
     implementation("com.jsoizo:kotlin-csv:1.10.0")
-//    implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.6")
-//    implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.5.0")
-
-    implementation(kotlin("stdlib"))
 
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.26.3")
@@ -45,6 +36,17 @@ application {
     mainClass.set("de.nasahl.csv2camt.Application.kt")
 }
 
-ktlint {
-    disabledRules.set(setOf("parameter-list-wrapping"))
+tasks.jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes(
+            "Main-Class" to "de.nasahl.csv2camt.Application.kt",
+        )
+    }
+    from({
+        configurations.runtimeClasspath
+            .get()
+            .filter { it.name.endsWith("jar") }
+            .map { zipTree(it) }
+    })
 }
